@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&display=swap");
+
+body {
+    margin: 0;
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #059669;
+}
+
+.header-container {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.input-heading {
+    text-align: center;
+    padding: 2rem;
+}
+
+#input-date {
+    display: block;
+    margin: 2rem auto;
+    margin-top: 0;
+    width: 15rem;
+    height: 2rem;
+    padding: 0 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
+}
+
+#button {
+    display: block;
+    margin: 3rem auto;
+    width: 7rem;
+    height: 2rem;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    border: 0;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.2rem;
+}
+
+#error-message {
+    color: red;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#output-text {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.meaning-box-heading {
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+#meaning-box {
+    text-align: center;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    width: 40rem;
+    max-width: 80%;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+.footer-container {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.small-image-size {
+    width: 2rem;
+    margin: 1.5rem;
+}

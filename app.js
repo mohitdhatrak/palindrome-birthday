@@ -8,8 +8,16 @@ function getDiffDateFormats(date) {
     var yyyy = dateArr[0];
     var mm = dateArr[1];
     var dd = dateArr[2];
+    var yy = yyyy.slice(-2);
 
-    return [yyyy + mm + dd, mm + dd + yyyy, dd + mm + yyyy];
+    return [
+        yyyy + mm + dd,
+        mm + dd + yyyy,
+        dd + mm + yyyy,
+        yy + mm + dd,
+        mm + dd + yy,
+        dd + mm + yy,
+    ];
 }
 
 function isPalindrome(date) {
@@ -169,7 +177,7 @@ function clickListner() {
             var date = mmddyyyyFormat(arr[1]);
             var dayOrDays = noOfDays === 1 ? " day" : " days";
             outputText.innerText =
-                "Your birthday is not a palindrome. The nearest palindrome is " +
+                "Your birthday is not a palindrome. The nearest palindrome in one of the above mentioned 6 formats is " +
                 date +
                 " you missed it by " +
                 noOfDays +

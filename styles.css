@@ -34,6 +34,7 @@ body {
     margin: 0 auto;
     margin-top: 2rem;
     text-align: center;
+    width: 50rem;
     max-width: 80%;
     font-size: 1.2rem;
 }
@@ -80,6 +81,9 @@ body {
     font-size: 1.5rem;
     color: var(--primary-color);
     font-weight: 600;
+    width: 50rem;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .meaning-box-heading {

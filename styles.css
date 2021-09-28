@@ -30,6 +30,14 @@ body {
     max-width: 80%;
 }
 
+.format-line {
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-align: center;
+    max-width: 80%;
+    font-size: 1.2rem;
+}
+
 .input-heading {
     text-align: center;
     padding: 2rem;

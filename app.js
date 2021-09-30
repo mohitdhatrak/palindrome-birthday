@@ -170,7 +170,8 @@ function clickListner() {
         errorText.innerText = "Please select your birthdate";
     } else {
         if (checkDiffDateFormats(birthdate) === true) {
-            outputText.innerText = "Yay, your birthday is a palindrome !";
+            outputText.innerText =
+                "Yay, your birthday is a palindrome according to one of the above mentioned 6 formats!";
         } else {
             var arr = getNearestPalindrome(birthdate);
             var noOfDays = arr[0];
